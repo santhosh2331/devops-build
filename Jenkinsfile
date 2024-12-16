@@ -16,8 +16,8 @@ pipeline {
             steps {
                 script{
                    withDockerRegistry(credentialsId: 'docker-hub') {
-                        sh 'docker tag new sannthosh/dev:react'
-                        sh 'docker push sannthosh/dev:react'   
+                        sh 'docker tag my-nginx-app sannthosh/dev:image1'
+                        sh 'docker push sannthosh/dev:image1'   
                     }    
                 }
             }
