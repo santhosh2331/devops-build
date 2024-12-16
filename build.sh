@@ -1,3 +1,2 @@
 #!/bin/bash
-docker build -t my-nginx-app .
-
+docker-compose build app
