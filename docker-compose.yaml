@@ -4,4 +4,4 @@ services:
    build:
     context: .
     dockerfile: Dockerfile
-   image: sannthosh/dev:new
+   image: new
